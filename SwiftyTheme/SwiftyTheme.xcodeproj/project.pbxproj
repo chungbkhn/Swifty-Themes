@@ -15,6 +15,10 @@
 		5443A8AA2192FB77003C31CB /* SwiftyThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443A8A92192FB77003C31CB /* SwiftyThemeTests.swift */; };
 		5443A8B52192FB78003C31CB /* SwiftyThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443A8B42192FB78003C31CB /* SwiftyThemeUITests.swift */; };
 		5443A8C62192FBA8003C31CB /* SwiftyThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443A8C52192FBA8003C31CB /* SwiftyThemeProtocol.swift */; };
+		63DD2D972193213B00F0BE9B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DD2D962193213B00F0BE9B /* Theme.swift */; };
+		6FC6AB7D38317BC6489A94EA /* Pods_SwiftyThemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABD879DE71F8A236B1DB319 /* Pods_SwiftyThemeTests.framework */; };
+		957C44836B43FE5F585042F6 /* Pods_SwiftyThemeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B270B1B1A60A2AD2121FBE7 /* Pods_SwiftyThemeUITests.framework */; };
+		E64E481847614884C4F83BAC /* Pods_SwiftyTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4870F966716CF7BBA9FE9B9 /* Pods_SwiftyTheme.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B270B1B1A60A2AD2121FBE7 /* Pods_SwiftyThemeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyThemeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2150949E256D0027D511D /* Pods-SwiftyThemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyThemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyThemeTests/Pods-SwiftyThemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		424707B3E1F22C453BB5504F /* Pods-SwiftyTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyTheme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyTheme/Pods-SwiftyTheme.debug.xcconfig"; sourceTree = "<group>"; };
 		5443A8912192FB76003C31CB /* SwiftyTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5443A8942192FB76003C31CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5443A8962192FB76003C31CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		5443A8B42192FB78003C31CB /* SwiftyThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyThemeUITests.swift; sourceTree = "<group>"; };
 		5443A8B62192FB78003C31CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5443A8C52192FBA8003C31CB /* SwiftyThemeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyThemeProtocol.swift; sourceTree = "<group>"; };
+		56FE27F66635610532A4B9EA /* Pods-SwiftyThemeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyThemeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyThemeUITests/Pods-SwiftyThemeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63DD2D962193213B00F0BE9B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		838436B98F5D884E213489E4 /* Pods-SwiftyTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyTheme.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyTheme/Pods-SwiftyTheme.release.xcconfig"; sourceTree = "<group>"; };
+		8A42D5A43D91B4A49EA3B448 /* Pods-SwiftyThemeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyThemeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyThemeUITests/Pods-SwiftyThemeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA698FEA08FB0E8EA93ADB6C /* Pods-SwiftyThemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyThemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyThemeTests/Pods-SwiftyThemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EABD879DE71F8A236B1DB319 /* Pods_SwiftyThemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyThemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4870F966716CF7BBA9FE9B9 /* Pods_SwiftyTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64E481847614884C4F83BAC /* Pods_SwiftyTheme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC6AB7D38317BC6489A94EA /* Pods_SwiftyThemeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957C44836B43FE5F585042F6 /* Pods_SwiftyThemeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53A138ECE323D6038451E4AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4870F966716CF7BBA9FE9B9 /* Pods_SwiftyTheme.framework */,
+				EABD879DE71F8A236B1DB319 /* Pods_SwiftyThemeTests.framework */,
+				1B270B1B1A60A2AD2121FBE7 /* Pods_SwiftyThemeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5443A8882192FB76003C31CB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				5443A8A82192FB77003C31CB /* SwiftyThemeTests */,
 				5443A8B32192FB78003C31CB /* SwiftyThemeUITests */,
 				5443A8922192FB76003C31CB /* Products */,
+				A14DF6681ECC0291EFA368DB /* Pods */,
+				53A138ECE323D6038451E4AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,8 +161,22 @@
 			isa = PBXGroup;
 			children = (
 				5443A8C52192FBA8003C31CB /* SwiftyThemeProtocol.swift */,
+				63DD2D962193213B00F0BE9B /* Theme.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		A14DF6681ECC0291EFA368DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				424707B3E1F22C453BB5504F /* Pods-SwiftyTheme.debug.xcconfig */,
+				838436B98F5D884E213489E4 /* Pods-SwiftyTheme.release.xcconfig */,
+				DA698FEA08FB0E8EA93ADB6C /* Pods-SwiftyThemeTests.debug.xcconfig */,
+				37E2150949E256D0027D511D /* Pods-SwiftyThemeTests.release.xcconfig */,
+				8A42D5A43D91B4A49EA3B448 /* Pods-SwiftyThemeUITests.debug.xcconfig */,
+				56FE27F66635610532A4B9EA /* Pods-SwiftyThemeUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5443A8B92192FB78003C31CB /* Build configuration list for PBXNativeTarget "SwiftyTheme" */;
 			buildPhases = (
+				26C9647CB5C22660181A49B0 /* [CP] Check Pods Manifest.lock */,
 				5443A88D2192FB76003C31CB /* Sources */,
 				5443A88E2192FB76003C31CB /* Frameworks */,
 				5443A88F2192FB76003C31CB /* Resources */,
+				213A9131A34A1D2FB07877C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5443A8BC2192FB78003C31CB /* Build configuration list for PBXNativeTarget "SwiftyThemeTests" */;
 			buildPhases = (
+				4DBB8A63F97E1E2F89AC8A99 /* [CP] Check Pods Manifest.lock */,
 				5443A8A12192FB77003C31CB /* Sources */,
 				5443A8A22192FB77003C31CB /* Frameworks */,
 				5443A8A32192FB77003C31CB /* Resources */,
@@ -178,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5443A8BF2192FB78003C31CB /* Build configuration list for PBXNativeTarget "SwiftyThemeUITests" */;
 			buildPhases = (
+				0E033943F60D3D4BEAD25A23 /* [CP] Check Pods Manifest.lock */,
 				5443A8AC2192FB77003C31CB /* Sources */,
 				5443A8AD2192FB77003C31CB /* Frameworks */,
 				5443A8AE2192FB77003C31CB /* Resources */,
@@ -262,12 +309,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E033943F60D3D4BEAD25A23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyThemeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		213A9131A34A1D2FB07877C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyTheme/Pods-SwiftyTheme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyTheme/Pods-SwiftyTheme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26C9647CB5C22660181A49B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyTheme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DBB8A63F97E1E2F89AC8A99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyThemeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5443A88D2192FB76003C31CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5443A8C62192FBA8003C31CB /* SwiftyThemeProtocol.swift in Sources */,
+				63DD2D972193213B00F0BE9B /* Theme.swift in Sources */,
 				5443A8972192FB76003C31CB /* ViewController.swift in Sources */,
 				5443A8952192FB76003C31CB /* AppDelegate.swift in Sources */,
 			);
@@ -442,6 +589,7 @@
 		};
 		5443A8BA2192FB78003C31CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424707B3E1F22C453BB5504F /* Pods-SwiftyTheme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +607,7 @@
 		};
 		5443A8BB2192FB78003C31CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838436B98F5D884E213489E4 /* Pods-SwiftyTheme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +625,7 @@
 		};
 		5443A8BD2192FB78003C31CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA698FEA08FB0E8EA93ADB6C /* Pods-SwiftyThemeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +646,7 @@
 		};
 		5443A8BE2192FB78003C31CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E2150949E256D0027D511D /* Pods-SwiftyThemeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +667,7 @@
 		};
 		5443A8C02192FB78003C31CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A42D5A43D91B4A49EA3B448 /* Pods-SwiftyThemeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +687,7 @@
 		};
 		5443A8C12192FB78003C31CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FE27F66635610532A4B9EA /* Pods-SwiftyThemeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
